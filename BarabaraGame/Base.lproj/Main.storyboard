@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="leaders_08_barabara" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BarabaraGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,7 +59,7 @@
         <!--Game View Controller-->
         <scene sceneID="Eha-nc-FrF">
             <objects>
-                <viewController id="Kk4-Gf-p9a" customClass="GameViewController" customModule="leaders_08_barabara" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Kk4-Gf-p9a" customClass="GameViewController" customModule="BarabaraGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yun-aB-CJt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,23 +89,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bar.png" translatesAutoresizingMaskIntoConstraints="NO" id="1ex-iQ-b7m">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bar" translatesAutoresizingMaskIntoConstraints="NO" id="1ex-iQ-b7m">
                                 <rect key="frame" x="2" y="282" width="414" height="13"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tail.png" translatesAutoresizingMaskIntoConstraints="NO" id="fdP-m8-upE">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tail" translatesAutoresizingMaskIntoConstraints="NO" id="fdP-m8-upE">
                                 <rect key="frame" x="164" y="297" width="95" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tail.png" translatesAutoresizingMaskIntoConstraints="NO" id="vFd-FJ-lpI">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tail" translatesAutoresizingMaskIntoConstraints="NO" id="vFd-FJ-lpI">
                                 <rect key="frame" x="164" y="142" width="95" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tail.png" translatesAutoresizingMaskIntoConstraints="NO" id="lxO-uu-fyu">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tail" translatesAutoresizingMaskIntoConstraints="NO" id="lxO-uu-fyu">
                                 <rect key="frame" x="164" y="449" width="95" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bar.png" translatesAutoresizingMaskIntoConstraints="NO" id="HLX-gZ-FJP">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bar" translatesAutoresizingMaskIntoConstraints="NO" id="HLX-gZ-FJP">
                                 <rect key="frame" x="-2" y="435" width="414" height="13"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -123,20 +123,20 @@
                         <viewLayoutGuide key="safeArea" id="VbC-Xs-4Jo"/>
                     </view>
                     <connections>
-                        <outlet property="imageView1" destination="vFd-FJ-lpI" id="7JR-b3-Ie8"/>
-                        <outlet property="imageView2" destination="fdP-m8-upE" id="2fC-C6-eEG"/>
-                        <outlet property="imageView3" destination="lxO-uu-fyu" id="hV7-Eu-lve"/>
+                        <outlet property="imageView1" destination="vFd-FJ-lpI" id="BUs-ZI-1HE"/>
+                        <outlet property="imageView2" destination="fdP-m8-upE" id="fpq-tU-Sez"/>
+                        <outlet property="imageView3" destination="lxO-uu-fyu" id="NU8-bG-huA"/>
                         <outlet property="resultLabel" destination="w6W-pX-dTh" id="fAb-T1-Tbh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xLm-s0-v0V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="971.01449275362324" y="137.94642857142856"/>
+            <point key="canvasLocation" x="1284" y="138"/>
         </scene>
         <!--Ranking View Controller-->
         <scene sceneID="EFB-qc-UFP">
             <objects>
-                <viewController id="O6V-gU-tMY" customClass="RankingViewController" customModule="leaders_08_barabara" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="O6V-gU-tMY" customClass="RankingViewController" customModule="BarabaraGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OFm-4v-CIw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -211,11 +211,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dIN-9w-jjU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="969.56521739130437" y="827.67857142857144"/>
+            <point key="canvasLocation" x="971" y="1029"/>
         </scene>
     </scenes>
     <resources>
-        <image name="bar.png" width="546" height="6"/>
-        <image name="tail.png" width="37" height="37"/>
+        <image name="bar" width="546" height="6"/>
+        <image name="tail" width="74" height="74"/>
     </resources>
 </document>
