@@ -125,7 +125,7 @@
                     <connections>
                         <outlet property="imageView1" destination="vFd-FJ-lpI" id="BUs-ZI-1HE"/>
                         <outlet property="imageView2" destination="fdP-m8-upE" id="fpq-tU-Sez"/>
-                        <outlet property="imageView3" destination="lxO-uu-fyu" id="NU8-bG-huA"/>
+                        <outlet property="imageView3" destination="lxO-uu-fyu" id="zAc-Lq-xIV"/>
                         <outlet property="resultLabel" destination="w6W-pX-dTh" id="fAb-T1-Tbh"/>
                     </connections>
                 </viewController>
